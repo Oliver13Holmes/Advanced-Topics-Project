@@ -1,0 +1,31 @@
+def check_direction(a, b, c, d):
+  if d > 0:
+    return "RIGHT"
+  else:
+    return "LEFT"
+
+def check_direction(a, b, c, d):
+  val = (c - a) * (d - b)
+  if val > 0:
+    return "RIGHT"
+  else:
+    return "LEFT"
+
+def check_direction(a, b, c, d):
+  val = (b - d) * (c - a)
+  if val > 0:
+    return "RIGHT"
+  elif val < 0:
+    return "LEFT"
+  else:
+    return "LEFT"
+
+def check_direction(a, b, c, d):
+  val = (b - d) * (c - a)
+  if val > 0:
+    return "RIGHT"
+  elif val < 0:
+    return "LEFT"
+  else:
+    return "RIGHT"
+
